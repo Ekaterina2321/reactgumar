@@ -1,0 +1,117 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+
+
+
+.slick-list, .slick-slider, .slick-track {
+  position: relative;
+  display: block;
+  width: 1000px;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 30px;
+  line-height: 1;
+  opacity: .75;
+  color: #0009EA;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots {
+  bottom: -45px;
+}
+
+.slick-slide img {
+  display: block;
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.slick-prev {
+  left: -75px;
+}
+
+.slick-next {
+  right: -55px;
+}
+
+.slick-dots li button:before.active {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #0009EA;
+}
+
+.slick-active {
+  color: #0009EA;
+}
+
+.ReactModal__Content  {
+  width: 750px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 4px 4px 50px #00000035;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ReactModal__Overlay {
+  background-color: #000;
+}
